@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "8bit";   /*imported Diary of an 8 bit mage font*/
+    src: local("Diaryofan8-bitmage"),
+      url("../font/Diaryofan8-bitmage.woff") format("woff");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: '8bit';
+}
+
+body {
+    background-color: rgb(31 41 55);
+    max-height: fit-content;
+    font-family: '8bit';
+}
